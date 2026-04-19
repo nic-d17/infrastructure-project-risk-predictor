@@ -1,0 +1,133 @@
+country,Region,income
+Russian Federation,ECA,Upper middle income
+Indonesia,EAP,Lower middle income
+Kenya,AFR,Lower middle income
+Côte d'Ivoire,AFR,Lower middle income
+Gabon,AFR,Upper middle income
+Comoros,AFR,Lower middle income
+South Africa,AFR,Upper middle income
+Guinea,AFR,Low income
+Guinea-Bissau,AFR,Low income
+Thailand,EAP,Upper middle income
+Senegal,AFR,Lower middle income
+Tanzania,AFR,Low income
+Ghana,AFR,Lower middle income
+India,SAR,Lower middle income
+Argentina,LAC,Upper middle income
+Malaysia,EAP,Upper middle income
+Pakistan,SAR,Lower middle income
+Morocco,MENA,Lower middle income
+Sri Lanka,SAR,Upper middle income
+Nepal,SAR,Low income
+Bangladesh,SAR,Lower middle income
+Zambia,AFR,Lower middle income
+Tunisia,MENA,Lower middle income
+Mexico,LAC,Upper middle income
+Turkiye,ECA,Upper middle income
+Philippines,EAP,Lower middle income
+Kazakhstan,ECA,Upper middle income
+China,EAP,Upper middle income
+Colombia,LAC,Upper middle income
+Brazil,LAC,Upper middle income
+Bolivia,LAC,Lower middle income
+Belarus,ECA,Upper middle income
+Peru,LAC,Upper middle income
+Costa Rica,LAC,Upper middle income
+Guatemala,LAC,Upper middle income
+Dominican Republic,LAC,Upper middle income
+El Salvador,LAC,Lower middle income
+Honduras,LAC,Lower middle income
+Jamaica,LAC,Upper middle income
+Ecuador,LAC,Upper middle income
+Grenada,LAC,Upper middle income
+Belize,LAC,Upper middle income
+Haiti,LAC,Low income
+Nicaragua,LAC,Lower middle income
+Myanmar,EAP,Lower middle income
+Cambodia,EAP,Lower middle income
+Vietnam,EAP,Lower middle income
+"Gambia, The",AFR,Low income
+Nigeria,AFR,Lower middle income
+Central African Republic,AFR,Low income
+West Bank and Gaza,MENA,Lower middle income
+"Egypt, Arab Rep.",MENA,Lower middle income
+Papua New Guinea,EAP,Lower middle income
+"Congo, Rep.",AFR,Lower middle income
+São Tomé and Principe,AFR,Lower middle income
+Albania,ECA,Upper middle income
+Cameroon,AFR,Lower middle income
+Madagascar,AFR,Low income
+"Venezuela, RB",LAC,Upper middle income
+Armenia,ECA,Upper middle income
+Bulgaria,ECA,Upper middle income
+Azerbaijan,ECA,Upper middle income
+Kyrgyz Republic,ECA,Lower middle income
+Uzbekistan,ECA,Lower middle income
+Serbia,ECA,Upper middle income
+Ukraine,ECA,Lower middle income
+"Guyana, CR",LAC,Upper middle income
+Cuba,LAC,Upper middle income
+Jordan,MENA,Upper middle income
+Togo,AFR,Low income
+"Congo, Dem. Rep.",AFR,Low income
+Lebanon,MENA,Upper middle income
+Fiji,EAP,Upper middle income
+Cape Verde,AFR,Lower middle income
+Namibia,AFR,Upper middle income
+Eswatini,AFR,Lower middle income
+Mozambique,AFR,Low income
+"Yemen, Rep.",MENA,Low income
+Kiribati,EAP,Lower middle income
+Lao PDR,EAP,Lower middle income
+Mongolia,EAP,Lower middle income
+Samoa,EAP,Upper middle income
+Malawi,AFR,Low income
+Sudan,AFR,Lower middle income
+Uganda,AFR,Low income
+Vanuatu,EAP,Lower middle income
+"Iran, Islamic Rep.",MENA,Upper middle income
+Georgia,ECA,Upper middle income
+Paraguay,LAC,Upper middle income
+Zimbabwe,AFR,Lower middle income
+Seychelles,AFR,Upper middle income
+Moldova,ECA,Lower middle income
+Niger,AFR,Low income
+Dominica,LAC,Upper middle income
+St. Lucia,LAC,Upper middle income
+Bosnia and Herzegovina,ECA,Upper middle income
+Mauritania,AFR,Lower middle income
+Burkina Faso,AFR,Low income
+Somalia,AFR,Low income
+Djibouti,MENA,Lower middle income
+North Macedonia,ECA,Upper middle income
+Chad,AFR,Low income
+Benin,AFR,Low income
+Angola,AFR,Lower middle income
+Tajikistan,ECA,Low income
+Lesotho,AFR,Lower middle income
+Syrian Arab Republic,MENA,Low income
+Algeria,MENA,Upper middle income
+Iraq,MENA,Upper middle income
+Rwanda,AFR,Low income
+Kosovo,ECA,Upper middle income
+Tonga,EAP,Upper middle income
+Afghanistan,SAR,Low income
+Maldives,SAR,Upper middle income
+Timor-Leste,EAP,Lower middle income
+Montenegro,ECA,Upper middle income
+Bhutan,SAR,Lower middle income
+Sierra Leone,AFR,Low income
+"Korea, Dem. People's Rep",EAP,Low income
+Ethiopia,AFR,Low income
+Mali,AFR,Low income
+Liberia,AFR,Low income
+Botswana,AFR,Upper middle income
+Solomon Islands,EAP,Lower middle income
+St. Vincent and Grenadines,LAC,Upper middle income
+Burundi,AFR,Low income
+St. Kitts and Nevis,LAC,Upper middle income
+Uruguay,LAC,Upper middle income
+Palau,EAP,Upper middle income
+Suriname,LAC,Upper middle income
+South Sudan,AFR,Low income
+Equatorial Guinea,AFR,Upper middle income
