@@ -372,7 +372,7 @@ with right:
         # ── SHAP waterfall ────────────────────────────────────────────────
         st.markdown("**Top drivers (SHAP waterfall)**")
         wf_png = waterfall_figure(result, max_display=10)
-        st.image(wf_png, use_container_width=True)
+        st.image(wf_png, use_column_width=True)
         st.caption(
             "Red bars push risk up; blue bars push risk down. "
             "Features ranked by absolute SHAP contribution."
@@ -380,7 +380,7 @@ with right:
 
         # ── Category breakdown ────────────────────────────────────────────
         st.markdown("**Prediction drivers by category**")
-        st.image(category_figure(result), use_container_width=True)
+        st.image(category_figure(result), use_column_width=True)
 
         st.markdown(
             '<p class="disclaimer">Research tool only. Probabilities estimated on PPI '
