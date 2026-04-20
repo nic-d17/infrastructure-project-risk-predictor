@@ -110,6 +110,26 @@ cost-overrun-predictor/
 
 ---
 
+## Future Work: Developed-Market Extension
+
+Version 1 deliberately focuses on emerging-market private infrastructure (World Bank PPI) and UK government major projects (GMPP) — a deliberate scope decision to ensure defensible modeling depth within a constrained timeline rather than shallow coverage of many markets. The natural next layer is a developed-market distress and cost-escalation model covering OECD infrastructure.
+
+**Data sources to add:**
+
+- **US FHWA Major Projects Database** (highways.dot.gov/federal-lands/projects) — federal highway mega-projects with committed cost, schedule, and variance data; ~200 active projects with multi-year tracking
+- **US DOT Build America Bureau project pipeline** (buildamerica.dot.gov/projects) — federal credit-assisted infrastructure (TIFIA/RRIF loans), includes project cost, sector, and sponsor type; ~180 projects since 2000
+- **European TEN-T Project Portal** (tentec.ec.europa.eu) — major EU trans-European transport network projects across 27 member states; cost, delivery stage, and co-funding data; ~500 projects
+- **GMPP historical snapshots** — additional pre-2015 IPA data (available via FOI or archived gov.uk releases) to extend the UK panel beyond the 10 years already ingested
+- **Country-level sources:** Japan MLIT major project tracker, Australia Infrastructure Australia National Priority List, Canada Infrastructure Bank project registry — each adds ~50–150 projects with cost and schedule baselines
+
+**Architectural decision:**
+
+A developed-market extension would be a separate model, not additional rows in the existing PPI model. The data-generating process is fundamentally different: public-sector sponsors, regulated utility structures, stronger rule-of-law environments, and EU procurement rules vs. the PPI universe of private concessions in low/middle-income countries. Appending rows would conflate these regimes and degrade both models. The intended architecture is two independently trained classifiers sharing a common 87-feature schema where possible (WGI scores, macro environment at financial close, project type, investment size), deployed behind the same Streamlit interface with a **region mode toggle** (Emerging Markets / OECD) that routes inputs to the appropriate model and renders the corresponding SHAP waterfall.
+
+**Estimated effort:** 40–60 hours, primarily data harmonization — standardizing cost-baseline definitions across FHWA, TEN-T, and GMPP schemas — plus retraining and recalibrating the classifier on the new label distribution.
+
+---
+
 ## Author
 
 Nicholas Daal — Stanford MS Structural Engineering. Background: structural engineering on $1B+ infrastructure mega-projects; finance training at Eastdil Secured.
