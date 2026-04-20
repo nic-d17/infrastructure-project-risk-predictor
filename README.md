@@ -1,8 +1,8 @@
 # Infrastructure Project Risk Predictor
 
-An ML-based underwriting tool that estimates the probability of project distress for infrastructure mega-projects, designed for pre-IC screening by infrastructure GPs and credit funds.
+### [▶ Try the live demo — infra-risk-predictor.streamlit.app](https://infra-risk-predictor.streamlit.app/)
 
-**Live demo:** *(Streamlit Cloud URL — add after deployment)*
+An ML-based underwriting tool that estimates the probability of project distress for infrastructure mega-projects, designed for pre-IC screening by infrastructure GPs and credit funds.
 
 ---
 
