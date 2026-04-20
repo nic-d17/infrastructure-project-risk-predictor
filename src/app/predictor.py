@@ -9,6 +9,8 @@ import io
 from pathlib import Path
 from functools import lru_cache
 
+import joblib
+
 import numpy as np
 import pandas as pd
 import shap
@@ -146,10 +148,8 @@ def assign_category(feat: str) -> str:
 
 @lru_cache(maxsize=1)
 def load_artifacts() -> dict:
-    with open(ROOT / "models" / "best_model_uncalibrated.pkl", "rb") as f:
-        rf = pickle.load(f)
-    with open(ROOT / "models" / "best_model_calibrated.pkl", "rb") as f:
-        cal = pickle.load(f)
+    rf  = joblib.load(ROOT / "models" / "best_model_uncalibrated.pkl")
+    cal = joblib.load(ROOT / "models" / "best_model_calibrated.pkl")
     with open(ROOT / "models" / "feature_cols.json") as f:
         feature_cols = json.load(f)
     with open(ROOT / "models" / "impute_params.pkl", "rb") as f:

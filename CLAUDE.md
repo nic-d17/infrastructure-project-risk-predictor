@@ -95,7 +95,8 @@ The UK IPA publishes whole-life cost baselines annually. Tracking how a project'
 5. **Ask before installing new top-level dependencies.** Keep the stack lean.
 6. **Commit at logical checkpoints.** After each notebook completes, after each src module is tested. Use conventional commit prefixes (feat, fix, docs, test, refactor).
 7. **No emojis in code, commits, or the README** unless explicitly asked.
-8. **The Flyvbjerg database is off the table.** Do not suggest emailing Flyvbjerg or pursuing the Oxford Global Projects database. The project proceeds entirely on PPI + GMPP.
+8. **Never include Co-Authored-By or any Claude attribution in git commits.** No "Co-Authored-By: Claude" footer, no "Generated with Claude Code" lines, no AI attribution of any kind in commit messages.
+9. **The Flyvbjerg database is off the table.** Do not suggest emailing Flyvbjerg or pursuing the Oxford Global Projects database. The project proceeds entirely on PPI + GMPP.
 
 ## Session Workflow
 
